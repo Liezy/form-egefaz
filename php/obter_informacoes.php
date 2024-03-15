@@ -1,7 +1,7 @@
 <?php
 // Conexão com o banco de dados
 $hostname = "localhost";
-$bancodedados = "liezy_database";
+$bancodedados = "form-egefaz";
 $usuario = "root";
 $senha = "";
 

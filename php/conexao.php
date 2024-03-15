@@ -1,6 +1,6 @@
 <?php 
     $hostname = "localhost";
-    $bancodedados = "liezy_database";
+    $bancodedados = "form-egefaz";
     $usuario = "root";
     $senha = "";
 

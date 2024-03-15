@@ -28,17 +28,12 @@
                 <p for="tipo_evento">Tipo de evento</p>
                 <select name="tipo_evento" id="tipo_evento" class="info" onchange="mostrarCampos()">
                     <option value="selecione">Selecione o tipo de evento</option>
-                    <option value="curso_presencial">Curso Presencial</option>
-                    <option value="curso_ead">Curso EaD</option>
-                    <option value="seminario">Seminário</option>
-                    <option value="workshop">Workshop</option>
-                    <option value="palestra">Palestra</option>
-                    <option value="treinamento">Treinamento</option>
+                    <?php include './tipos_eventos_select.php'; ?>
                 </select>
 
                 <label style="display: none;"  for="eventos_abertos">Eventos Abertos</label>
                 <select style="display: none;" name="eventos_abertos" id="eventos_abertos" class="info">
-
+                    <option value="selecione">Selecione o evento</option>
                 </select>
 
                 <label style="display: none;"  for="cpf">CPF <span style="color: red;">*</span></label>

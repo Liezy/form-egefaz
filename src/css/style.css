@@ -82,3 +82,11 @@ hr {
 .area-botao .btn:hover {
     background-color: rgb(62, 131, 45);
 }
+
+.msg-sucesso{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}

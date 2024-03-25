@@ -21,7 +21,7 @@
 
             <hr>
 
-            <form action="index.php" method="POST" class="formulario">
+            <form action="processar_inscricao.php" method="POST" class="formulario">
 
                 <p for="tipo_evento">Tipo de evento</p>
                 <select name="tipo_evento" id="tipo_evento" class="info" onchange="mostrarCampos(); selectAction()">
@@ -57,9 +57,6 @@
                     <input type="submit" value="Enviar" class="btn">
                 </div>
             </form>
-            <div class="msg-sucesso">
-                Formulário enviado com sucesso!
-            </div>
         </div>
     </main>
 
